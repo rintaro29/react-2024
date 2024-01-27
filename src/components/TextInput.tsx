@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const TextInput = () => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
   return (
     <div>
-      <input type="text" value={text} aria-label="Text Input" onChange={(e) => setText(e.target.value)} />
+      <input
+        type="text"
+        value={text}
+        aria-label="Text Input"
+        onChange={(e) => setText(e.target.value)}
+      />
       <p>Enterd Text {text}</p>
     </div>
   );
