@@ -11,6 +11,7 @@ const TextInput = () => {
         onChange={(e) => setText(e.target.value)}
       />
       <p>Enterd Text {text}</p>
+      <p>test</p>
     </div>
   );
 };
